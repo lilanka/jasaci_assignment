@@ -15,9 +15,11 @@ node person {
     has parents;
     has children;
     has spouse;
+    has hometown;
 
     has age;
     has days_to_birthday;
+    has bus;
 
     can get_age {
         today_date = date.date_now();
@@ -36,6 +38,22 @@ node person {
         if (difference < 0) : difference = difference + 365;
         days_to_birthday = difference;
     }
+
+    can git_bus_to_hometown{
+        if(hometown == "Gampaha"){
+            bus = "Gampaha 200";
+        }
+
+        elif(hometown == "Moratuwa"){
+            bus = "Moratuwa 100";
+        }
+
+        elif(hometown == "Kaluthara"){
+            bus = "Kaluthara 400";
+        }
+
+    }
+    
 }
 node family_root {
     has id;

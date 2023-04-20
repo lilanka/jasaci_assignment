@@ -76,3 +76,10 @@ walker find_coming_birthday {
         report birthday_order;
     }
 }
+
+walker find_bus_root {
+    
+    root: take-->node::family_root;
+    family_root: take-->node::person;
+
+}
