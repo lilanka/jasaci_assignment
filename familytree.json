@@ -1,16 +1,16 @@
 {
     "families": [
         {
-            "family_name": "Irugalbandara",
+            "family_name": "Bandara",
             "uid": "0x1"
         },
         {
-            "family_name": "Jayalath",
+            "family_name": "Perera",
             "uid": "0x2"
         },
 
         {
-            "family_name": "Aldeniya",
+            "family_name": "Gamage",
             "uid": "0x2"
         }
 
@@ -19,9 +19,9 @@
         {
             "uid": "0x1",
             "family_id": "0x1",
-            "name": "Chandra Irugalbandara",
+            "name": "Pavan Bandara",
             "date_of_birth": "1996-02-10",
-            "profession": "Machine Learning Engineer",
+            "profession": "Software Engineer",
             "parents": {
                 "father": "0x2",
                 "mother": "0x3"
@@ -35,9 +35,9 @@
         {
             "uid": "0x2",
             "family_id": "0x1",
-            "name": "Sujeewa Rathnakumara",
+            "name": "Sanjaya Rathnayaka",
             "date_of_birth": "1966-02-10",
-            "profession": "Mechanical Engineer",
+            "profession": "Teacher",
             "parents": null,
             "deceased": true,
             "children": [
@@ -52,9 +52,9 @@
         {
             "uid": "0x3",
             "family_id": "0x2",
-            "name": "Damayanthi Manike",
+            "name": "Dimanthi Samarasinghe",
             "date_of_birth": "1966-02-10",
-            "profession": "Housewife",
+            "profession": "Teacher",
             "parents": null,
             "deceased": false,
             "children": [
@@ -69,7 +69,7 @@
         {
             "uid": "0x4",
             "family_id": "0x1",
-            "name": "Vishwa Irugalbandara",
+            "name": "Lakshan Bandara",
             "date_of_birth": "1994-03-19",
             "profession": "Doctor",
             "parents": {
@@ -85,9 +85,9 @@
         {
             "uid": "0x5",
             "family_id": "0x1",
-            "name": "Darsha Irugalbandara",
+            "name": "Imashi Bandara",
             "date_of_birth": "1996-06-23",
-            "profession": "US Coast Guard Office",
+            "profession": "Student",
             "parents": {
                 "father": "0x2",
                 "mother": "0x3"
