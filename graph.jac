@@ -39,8 +39,8 @@ node person {
         days_to_birthday = difference;
     }
 
-    can git_bus_to_hometown{
-        if(hometown == "Gampaha"){
+    can get_bus_to_hometown{
+        if(hometown == 'Gampaha'){
             bus = "Gampaha 200";
         }
 
@@ -50,6 +50,10 @@ node person {
 
         elif(hometown == "Kaluthara"){
             bus = "Kaluthara 400";
+        }
+
+        else{
+           bus = "No Bus"; 
         }
 
     }

@@ -36,7 +36,8 @@ walker create_familytree {
                 deceased = member["deceased"],
                 parents = member["parents"],
                 children = member["children"],
-                spouse = member["spouse"]
+                spouse = member["spouse"],
+                hometown = member["hometown"]
             );
             famly_members.list::append(family_member);
         }
@@ -78,8 +79,23 @@ walker find_coming_birthday {
 }
 
 walker find_bus_root {
-    
+
+    has anchor busList = [];
+
     root: take-->node::family_root;
     family_root: take-->node::person;
+
+    person {
+        if (!here.deceased) {
+            here::get_bus_to_hometown;
+            busList.l::append([here.bus, here.name]);
+            }
+            
+        }
+
+    with exit {
+        std.out(busList);
+        report busList;
+    }
 
 }
