@@ -21,7 +21,7 @@
             "family_id": "0x1",
             "name": "Pavan Bandara",
             "date_of_birth": "1996-02-10",
-            "profession": "Machine Learning Engineer",
+            "profession": "Software Engineer",
             "parents": {
                 "father": "0x2",
                 "mother": "0x3"
@@ -37,7 +37,7 @@
             "family_id": "0x1",
             "name": "Sanjaya Rathnayaka",
             "date_of_birth": "1966-02-10",
-            "profession": "Mechanical Engineer",
+            "profession": "Teacher",
             "parents": null,
             "deceased": true,
             "children": [
@@ -54,7 +54,7 @@
             "family_id": "0x2",
             "name": "Dimanthi Samarasinghe",
             "date_of_birth": "1966-02-10",
-            "profession": "Housewife",
+            "profession": "Teacher",
             "parents": null,
             "deceased": false,
             "children": [
@@ -87,7 +87,7 @@
             "family_id": "0x1",
             "name": "Imashi Bandara",
             "date_of_birth": "1996-06-23",
-            "profession": "US Coast Guard Office",
+            "profession": "Student",
             "parents": {
                 "father": "0x2",
                 "mother": "0x3"
